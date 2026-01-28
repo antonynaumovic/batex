@@ -10,5 +10,5 @@ class BATEX_OT_OpenFolder(Operator):
   bl_options = {'REGISTER'}
 
   def execute(self, context):
-    bpy.ops.wm.path_open(filepath=context.scene.export_folder)
+    bpy.ops.wm.path_open(filepath=context.scene.batex_settings.export_folder)
     return {'FINISHED'}
