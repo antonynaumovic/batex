@@ -1,7 +1,7 @@
 # Batex - Batch Export as FBX
 
-**Version:** 0.7.0  
-**Author:** jayanam, Rodrigo Camacho (forked from jayanam)
+**Version:** 1.0.4  
+**Author:** jayanam, Rodrigo Camacho (forked from jayanam), Antony Naumovic (forked from Rodrigo Camacho)
 
 ## Description
 
@@ -17,6 +17,20 @@ Batex is a Blender add-on that allows for batch exporting selected objects as FB
 - Option to export just one material per object.
 
 ## Recent Modifications
+
+### Version 1.0.4
+
+- **Added support for Re-export:**
+  - Can one click export the previous FBX, allowing for quick iteration.
+
+- **Single export mode:**
+  - Batex can now export the selected objects to a single FBX file.
+
+### Version 1.0.1
+
+- **Unreal Mode:**
+  - Export settings tailored for use with Unreal Engine 5.
+  - Added support to export Smoothing as Smoothing Groups.
 
 ### Version 0.7.0
 
